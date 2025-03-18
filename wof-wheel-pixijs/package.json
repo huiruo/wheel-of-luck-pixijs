@@ -1,0 +1,36 @@
+{
+  "name": "wheeloffortune",
+  "version": "0.0.1",
+  "description": "Wheel of fortune",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "webpack-dev-server --config webpack.dev.js --mode development --open",
+    "dev": "npm run start:dev",
+    "build": "webpack --mode development --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikita0018/wof.git"
+  },
+  "author": "Tvetcov Nichita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikita0018/wof/issues"
+  },
+  "homepage": "https://github.com/nikita0018/wof#readme",
+  "devDependencies": {
+    "file-loader": "^6.0.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "^6.0.3",
+    "gsap": "^3.6.0",
+    "html-webpack-plugin": "^4.3.0",
+    "pixi.js": "^5.3.0",
+    "source-map-loader": "^1.0.1",
+    "webpack-merge": "^5.0.9"
+  }
+}

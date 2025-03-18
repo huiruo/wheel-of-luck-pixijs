@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin the Wheel</title>
+
+<!-- <link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Spin the wheel of never-ending fortune.">
+<meta name="theme-color" content="#000000">
+<meta name="author" content="spinthewheel">
+<!-- Style-CSS  -->
+<link rel="stylesheet" href="styles.css">
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<style>
+     canvas { display: block; }
+</style>
+<body>
+    <div class="background-image"></div>
+    <div class="content">
+        <canvas id="myCanvas"></canvas>
+
+      <!-- <video width="640" height="480" controls>
+        <source src="showdown/showdown css.mov" type="video/mp4">
+        Your browser does not support the video tag.
+      </video> -->
+        <div id="app">
+            <div class="volume-icon">
+                <i class="ri-volume-mute-fill" id="muteIcon" style="display: none;"></i>
+                <i class="ri-volume-up-fill" id="unmuteIcon"></i>
+            </div>
+            <img class="marker" src="wheel/marker.png" />
+            <img class="wheel" src="wheel/wheel.png" />
+            <img class="button" src="wheel/btn-spin.png" />
+
+          </div>
+
+         <div class="modal-container">
+    <div class="modal">
+        <span class="close">&times;</span>
+        <p></p>
+    </div>
+</div>
+
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
