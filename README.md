@@ -1,2 +1,6 @@
 # wheel-of-luck-pixijs
-wheel-of-luck-pixijs
+
+Other online examples:
+```
+https://codepen.io/dom-waterson/pen/KBjrMj
+```
